@@ -7,22 +7,22 @@ on:
         description: "OpenWrt version"
         type: string
         required: true
-        default: "23.05.3"
+        default: "25.12.5"
       openwrt_arch:
         description: "OpenWrt arch"
         type: string
         required: true
-        default: "mips_24kc"
+        default: "aarch64_generic"
       openwrt_target:
         description: "OpenWrt target"
         type: string
         required: true
-        default: "ath79"
+        default: "rockchip"
       openwrt_subtarget:
         description: "OpenWrt subtarget"
         type: string
         required: true
-        default: "generic"
+        default: "armv8"
       openwrt_vermagic:
         description: "OpenWrt vermagic"
         type: string
